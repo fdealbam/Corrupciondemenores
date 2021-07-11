@@ -28,7 +28,7 @@ today = date.today()
 d2 = today.strftime("Fecha de actualización : %d-%m-%Y")
 
 tabla1 = pd.read_csv('https://raw.githubusercontent.com/fdealbam/violenciadegenero/main/Tabla1.csv')              
-tabla1_f = tabla1[tabla1['Tipo de delito']== 'Violación' ]
+tabla1_f = tabla1[tabla1['Tipo de delito']== 'Corrupción de menores' ]
 tabla1_f.reset_index(inplace=True,)
 TOTCORRUPMENORES = tabla1_f.iloc[0]['GRAND TOTAL']
 TASACORRUPMENORES = tabla1_f.iloc[0]['tasa_acumulada']
