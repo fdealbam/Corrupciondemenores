@@ -371,7 +371,7 @@ body = html.Div([
     
         dbc.Row(
            [
-               dbc.CardImg(src="https://github.com/fdealbam/0entrada/blob/main/application/static/logo%20cesopycamara1.PNG?raw=true"),
+               dbc.Col(dbc.CardImg(src="https://github.com/fdealbam/0entrada/blob/main/application/static/logo%20cesopycamara1.PNG?raw=true"),
                         width=5, md={'size': 3,  "offset": 6, }),
                dbc.Col(html.P("Corrupción de menores"),
                         style={"font-size": 86, "text-align": "center",
