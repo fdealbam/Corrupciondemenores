@@ -371,7 +371,7 @@ body = html.Div([
     
         dbc.Row(
            [
-               #dbc.Col(dbc.CardImg(src="https://github.com/fdealbam/0entrada/blob/main/application/static/logo%20cesopycamara1.PNG?raw=true"),
+               dbc.CardImg(src="https://github.com/fdealbam/0entrada/blob/main/application/static/logo%20cesopycamara1.PNG?raw=true"),
                         width=5, md={'size': 3,  "offset": 6, }),
                dbc.Col(html.P("Corrupción de menores"),
                         style={"font-size": 86, "text-align": "center",
@@ -754,7 +754,7 @@ body = html.Div([
    dbc.Row([
                                     #https://github.com/fdealbam/CamaraDiputados/blob/b11ef31e8e0f73e1a4a06ce60402563e1bd0122e/application/static/logocamara.jfif
            dbc.Col(
-             dbc.CardImg(src="https://github.com/fdealbam/0entrada/blob/main/application/static/logo%20cesopycamara1.PNG?raw=true"),
+            dbc.CardImg(src="https://github.com/fdealbam/0entrada/blob/main/application/static/logo%20cesopycamara1.PNG?raw=true"),
                         width=5, md={'size': 3,  "offset": 6, }),
             
            dbc.Col(html.H5(" Centro de Estudios Sociales y de Opinión Pública," 
