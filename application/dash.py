@@ -491,7 +491,7 @@ body = html.Div([
             
            dbc.Col(html.H5(" Centro de Estudios Sociales y de Opinión Pública," 
                            " Cámara de Diputados"
-                           " México, 2021 "),
+                           " México, 2022 "),
                   width={'size': 3, 'offset': 0}),
                ], justify="end",),
             
