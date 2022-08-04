@@ -128,7 +128,7 @@ femi15_21 = fg [[
  'Enero21','Febrero21','Marzo21','Abril21','Mayo21','Junio21','Julio21',
  'Agosto21','Septiembre21','Octubre21','Noviembre21','Diciembre21',
     
- 'Enero22', #'Febrero22', 'Marzo22','Abril22', 'Mayo22', 'Junio22', 'Julio22', 'Agosto22',
+ 'Enero22', 'Febrero22', 'Marzo22','Abril22', 'Mayo22', 'Junio22', #'Julio22', 'Agosto22',
    #'Septiembre22','Octubre22','Noviembre22','Diciembre22'
              ]]
 
@@ -156,8 +156,8 @@ femi15_21['Total2020']= femi15_21[[ 'Enero20', 'Febrero20', 'Marzo20', 'Abril20'
 femi15_21['Total2021']= femi15_21[[ 'Enero21','Febrero21', 'Marzo21', 'Abril21', 'Mayo21',
                                    'Junio21','Julio21','Agosto21','Septiembre21','Octubre21',
                                    'Noviembre21','Diciembre21']].sum(axis=1)
-femi15_21['Total2022']= femi15_21[[ 'Enero22',# 'Febrero22', 'Marzo22', 'Abril22', 'Mayo22',
-                              # 'Junio22', 'Julio22', 'Agosto22', 'Septiembre22', 'Octubre22',
+femi15_21['Total2022']= femi15_21[[ 'Enero22', 'Febrero22', 'Marzo22', 'Abril22', 'Mayo22',
+                              'Junio22',# 'Julio22', 'Agosto22', 'Septiembre22', 'Octubre22',
                                #'Noviembre22', 'Diciembre22',
                                   ]].sum(axis=1)
 
@@ -195,7 +195,7 @@ pagra = fg[[
  'Enero21', 'Febrero21', 'Marzo21','Abril21', 'Mayo21', 'Junio21','Julio21', 'Agosto21',
     'Septiembre21','Octubre21','Noviembre21','Diciembre21',
     
-    'Enero22',# 'Febrero22', 'Marzo22','Abril22', 'Mayo22', 'Junio22', 'Julio22', 'Agosto22',
+    'Enero22', 'Febrero22', 'Marzo22','Abril22', 'Mayo22', 'Junio22',# 'Julio22', 'Agosto22',
    #'Septiembre22','Octubre22','Noviembre22','Diciembre22'
     
             ]]
@@ -456,8 +456,8 @@ v8edo4 = int(delPue2.iloc[7]['Grand total'])
 v9edo4 = int(delPue2.iloc[8]['Grand total'])
 v10edo4 =int( delPue2.iloc[9]['Grand total'])
 
-bulletedo1 = ("Las 10 alcaldías con más corrupción de menores fueron: "+str(n1edo1)  +" ("+ str(v1edo1)+"), "+str(n2edo1) +" ("+ str(v2edo1)+"), "+str(n3edo1) +" ("+ str(v3edo1)+"), "+str(n4edo1) +" ("+ str(v4edo1)+"), "+str(n5edo1) +" ("+ str(v5edo1)+"), "+str(n6edo1) +" ("+ str(v6edo1)+") y "+str(n7edo1) +" ("+ str(v7edo1)+"). ")#+str(n8edo1) +" ("+ str(v8edo1)+"), "+str(n9edo1) +" ("+ str(v9edo1) +") y "+str(n10edo1)+" ("+ str(v10edo1)+").")
-bulletedo2 = ("Los 10 municipios con más corrupción de menores fueron: "+str(n1edo2) +" ("+ str(v1edo2)+"), "+str(n2edo2) +" ("+ str(v2edo2)+"), "+str(n3edo2) +" ("+ str(v3edo2)+"), "+str(n4edo2) +" ("+ str(v4edo2)+"), "+str(n5edo2) +" ("+ str(v5edo2)+"), "+str(n6edo2) +" ("+ str(v6edo2)+"), "+str(n7edo2) +" ("+ str(v7edo2)+"), "+str(n8edo2) +" ("+ str(v8edo2)+"), "+str(n9edo2) +" ("+ str(v9edo2)+") y "+str(n10edo2) +" ("+ str(v10edo2)+").")
+bulletedo1 = ("Los 10 municipios con más corrupción de menores fueron: "+str(n1edo1)  +" ("+ str(v1edo1)+"), "+str(n2edo1) +" ("+ str(v2edo1)+"), "+str(n3edo1) +" ("+ str(v3edo1)+"), "+str(n4edo1) +" ("+ str(v4edo1)+"), "+str(n5edo1) +" ("+ str(v5edo1)+"), "+str(n6edo1) +" ("+ str(v6edo1)+") y "+str(n7edo1) +" ("+ str(v7edo1)+"). ")#+str(n8edo1) +" ("+ str(v8edo1)+"), "+str(n9edo1) +" ("+ str(v9edo1) +") y "+str(n10edo1)+" ("+ str(v10edo1)+").")
+bulletedo2 = ("Las 10 alcaldías con más corrupción de menores fueron: "+str(n1edo2) +" ("+ str(v1edo2)+"), "+str(n2edo2) +" ("+ str(v2edo2)+"), "+str(n3edo2) +" ("+ str(v3edo2)+"), "+str(n4edo2) +" ("+ str(v4edo2)+"), "+str(n5edo2) +" ("+ str(v5edo2)+"), "+str(n6edo2) +" ("+ str(v6edo2)+"), "+str(n7edo2) +" ("+ str(v7edo2)+"), "+str(n8edo2) +" ("+ str(v8edo2)+"), "+str(n9edo2) +" ("+ str(v9edo2)+") y "+str(n10edo2) +" ("+ str(v10edo2)+").")
 bulletedo3 = ("Los 10 municipios con más corrupción de menores fueron: "+str(n1edo3) +" ("+ str(v1edo3)+"), "+str(n2edo3) +" ("+ str(v2edo3)+"), "+str(n3edo3) +" ("+ str(v3edo3)+"), "+str(n4edo3) +" ("+ str(v4edo3)+"), "+str(n5edo3) +" ("+ str(v5edo3)+"), "+str(n6edo3) +" ("+ str(v6edo3)+"), "+str(n7edo3) +" ("+ str(v7edo3)+"), "+str(n8edo3) +" ("+ str(v8edo3)+"), "+str(n9edo3) +" ("+ str(v9edo3)+") y "+str(n10edo3) +" ("+ str(v10edo3)+").")
 bulletedo4 = ("Los 10 municipios con más corrupción de menores fueron: "+str(n1edo4) +" ("+ str(v1edo4)+"), "+str(n2edo4) +" ("+ str(v2edo4)+"), "+str(n3edo4) +" ("+ str(v3edo4)+"), "+str(n4edo4) +" ("+ str(v4edo4)+"), "+str(n5edo4) +" ("+ str(v5edo4)+"), "+str(n6edo4) +" ("+ str(v6edo4)+"), "+str(n7edo4) +" ("+ str(v7edo4)+"), "+str(n8edo4) +" ("+ str(v8edo4)+"), "+str(n9edo4) +" ("+ str(v9edo4)+") y "+str(n10edo4) +" ("+ str(v10edo4)+").")
 
